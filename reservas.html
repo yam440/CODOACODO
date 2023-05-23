@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservá</title>
+</head>
+<body>
+    <header style="background-color:goldenrod;">
+        <nav>
+            <a style="background-color: gold;" href="index.html">Home</a>
+            <a style="background-color: gold;" href="nosotros.html">Nosotros</a>
+            <a style="background-color: gold;" href="Recetas.html">Recetas</a>
+            <a style="background-color: gold;" href="reservas.html">Reservá</a>
+            <a style="background-color: gold;" href="sucursales.html">Sucursales</a>
+        </nav>
+        <h1 style="text-align: center;">Thames Bar</h1>
+    </header>
+    <h2>Reservá Online!</h2>
+    <form action="mailto:yamila.sol.herlan@gmailcom">
+
+        
+        <div>
+            <fieldset> <legend><h3>Datos personales</h3></legend>
+                <label for="fname">Nombre:</label>
+                <input id="fname" type="text" required>
+        <br><br>
+                <label for="femail">E-mail:</label>
+                <input id="femail" type="email">
+        <br><br>
+                <label for="fphone">Teléfono:</label>
+                <input type="tel" id="fphone" name="fphone" required minlength="10">
+                
+        <br><br>
+                <label for="birthday">Fecha de cumpleaños:</label>
+                <input type="date" id="birthday" name="birthday">    
+        </fieldset>
+
+        </div>
+
+
+        <!-- Botones de opciones  -->
+        <div>
+        <br>
+        <fieldset><legend><h3>Seleccioná le fecha y horario de tu reserva</h3></legend>
+                <label for="freservation"> Fecha y hora de mi reserva:</label>
+                <input type="datetime-local" id="freservation" name="freservation" required>
+        </fieldset>
+        </div>
+        <div>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+        </div>     
+    </form>
+    <br><br><br><br>
+    <footer style="background-color: goldenrod;">
+        <br>
+        <p style="text-align: center;">Todos los derechos reservados 2023</p>
+    </footer>
+</body>
+</html>
